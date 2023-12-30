@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    padding: 40px;
+    text-align: center;
+}
+
+#header img {
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+#header h1 {
+    font-size: 50px;
+    color: rgb(19, 94, 19);
+    margin: 0px;
+}
+
+#text-box {
+    align-items: center;
+    text-align: center;
+    background: lightgreen;
+    margin: 100px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+#text-box p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+#text-input {
+    width: 50%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 25px;
+    align-items: centers;
+    transition: black 0.3s ease;
+    outline: none;
+    font-size: 20px;
+}
+
+#text-input:focus {
+    border: 1.5px solid black;
+}
+
+#check-btn {
+    font-size: 18px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+#check-btn:hover {
+    cursor: pointer;
+    background: green;
+}
+
+#info-box {
+    text-align: center;
+    background: lightgreen;
+    margin: 100px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#result {
+    padding-top: 2px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
